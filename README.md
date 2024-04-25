@@ -53,13 +53,13 @@ hdfs dfs -rm -r output
 Run python example
 
 ```bash
-. run-python-example.sh
+./run-python-example.sh
 ```
 
 To stop hadoop and close docker containers run following commands
 
 ```bash
-. stop-hadoop.sh
+./stop-hadoop.sh
 exit
 ```
 
