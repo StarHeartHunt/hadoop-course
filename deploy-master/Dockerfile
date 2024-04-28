@@ -1,8 +1,6 @@
 FROM ubuntu:20.04
-ENV TZ=Europe/Istanbul 
+ENV TZ=Asia/Shanghai
 ARG DEBIAN_FRONTEND=noninteractive
-
-MAINTAINER qwertymert <gulsen20@itu.edu.tr>
 
 WORKDIR /root
 
